@@ -7,6 +7,10 @@ android {
     namespace 'net.sessochoa.ignaciodiazmirete.practica3'
     compileSdk 32
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "net.sessochoa.ignaciodiazmirete.practica3"
         minSdk 21
